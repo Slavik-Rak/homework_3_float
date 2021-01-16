@@ -1,0 +1,52 @@
+div {
+    box-sizing: border-box;
+}
+
+.conteiner {
+    border: 3px solid black;
+    margin: auto;
+    padding: 5px;
+    width: 716px;
+}
+
+#header, #menu, .post, #footer {
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#header {
+    border: 1px solid black;
+    background: #E6F8AE;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#menu {
+    border: 1px solid green;
+    background: #FFB7FF;
+    height: 370px;
+    width: 100px;
+    float: left;
+}
+
+.post {
+    border: 1px solid black;
+    background: #9FE2FF;
+    height: 180px;
+    width: 590px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#footer {
+    border: 1px solid black;
+    background: #E6F8AE;
+    height: 100px;
+    margin: auto;
+    clear: both;
+}
